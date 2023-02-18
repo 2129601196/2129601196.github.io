@@ -22,4 +22,7 @@ function download(){
 }
 function 歌曲(number){
     document.getElementById("Songid").value = number
+    document.getElementById("Window").style.display = 'block'
+    var iframeid = document.getElementById("NetEase-CloudMusic") 
+    iframeid.src = "https://music.163.com/outchain/player?type=2&id="+document.getElementById("Songid").value+"&auto=1&height=66"
 }
