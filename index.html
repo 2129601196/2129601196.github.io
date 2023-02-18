@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="zh-cmn-hans-cn">
+	<head>
+		<meta charset="UTF-8"/>
+		<meta name="author" content="Hege Refsnes"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>网易云音乐</title>
+		<script src="./js.js" type="text/javascript" charset="UTF-8"></script>
+		<link rel="stylesheet" href="./css.css">
+	</head>
+	<body>
+			<input type="number" placeholder="网易云音乐Songid:" id="Songid"/>
+			<p>
+				<button onclick="play()" type="submit">播放</button>
+				<button onclick="play_hide()" type="submit">隐藏播放</button>
+				<button onclick="download()" type="submit">下载</button>
+				<!--start()可改成reload()-->
+				<button onclick="start()" type="submit">刷新</button>
+			</p>
+			<div id="Window" style="display:none">
+				<iframe id="NetEase-CloudMusic" src="about:blank"></iframe>
+			</div>
+			<h2>热门音乐</h2>
+			<iframe class="button_song" src="./button.html"></iframe>
+	</body>	
+</html>
