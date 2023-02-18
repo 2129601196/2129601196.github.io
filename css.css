@@ -53,7 +53,7 @@ button:hover::before {
     border: medium none;
 }
 input{
-    height: 34px;
+    height: 40px;
     border: 4mm ridge rgba(211, 220, 50, .6);
     width: 330px;
     padding: 0 10px;
