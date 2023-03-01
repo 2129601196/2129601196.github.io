@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>百度一下，你就知道</title>
+        <link rel="shortcut icon" href="../things/baidu-icon.svg" type="image/x-icon" />
+        <style id="style" name="style">
+            .图片{
+                min-height:150px;
+                text-align:center;
+                position:static;
+                margin:33px auto 0 auto;
+            }
+            .搜索框:hover{border-color:#a7aab5}
+            .搜索框:focus{border-color:#4662d9!important}
+            .搜索框{
+                width:512px;
+                height:16px;
+                padding:12px;
+                font-size:16px;
+                vertical-align:top;
+                outline:0;
+                border-radius:10px 0 0 10px;
+                border:2px solid #c4c7ce;
+            }
+            .搜索按钮{
+                width:108px;
+                height:44px;
+                background-color:#4e6ef2;
+                border-radius:0 10px 10px 0;
+                font-size:17px;
+                color:#fff;
+                border:none;
+            }
+            .搜索按钮:hover{background-color:#4662d9}
+            .form{text-align: center}
+        </style>
+    </head>
+    <body>
+        <div class="图片">
+            <img src="../things/baidu.png" width="270" height="129"   >
+        </div>
+        <form class="form" action="https://www.baidu.com/s">
+                <input class="搜索框" name="wd" maxlength="255" autocomplete="off">
+                <input type="submit" value="百度一下" class="搜索按钮">
+        </form>
+    </body>
+</html>
